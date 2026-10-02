@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated files that don't need versioning
+outputs/backups/
+outputs/models/
+*.pkl
+
+# Excel temp/lock files
+~$*.xlsx
+
+# To also ignore all graphs/metrics, uncomment:
+# outputs/
+
+# To keep the dataset out of the repo, uncomment:
+# Concrete_Input-COMBINED-1620.xlsx
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
