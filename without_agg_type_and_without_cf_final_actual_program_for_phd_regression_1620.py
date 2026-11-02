@@ -73,7 +73,7 @@ TARGET_LABELS = {
 TEST_SIZE = 0.2
 RANDOM_STATE = 42
 N_ESTIMATORS = 100
-POLY_DEGREE = 2     # degree of the red trend curve in actual-vs-predicted plots
+POLY_DEGREE = 5   # degree of the red trend curve in actual-vs-predicted plots
 DPI = 200
 
 np.set_printoptions(precision=2, suppress=True)
